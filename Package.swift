@@ -44,8 +44,8 @@ let package = Package(
       branch: "jan-lts"
     ),
     .package(
-      url: "https://github.com/firebase/boringssl-SwiftPM.git",
-      "0.7.1"..<"0.8.0"
+      url: "https://github.com/linkairtime-llc/boringssl-SwiftPM.git",
+      revision: "633e44eb55d2d782530262316996bca5a3649eab"
     ),
   ],
   targets: [
